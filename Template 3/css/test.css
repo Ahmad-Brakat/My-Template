@@ -1,0 +1,177 @@
+.container { 
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex; 
+    position: relative;
+  } 
+  /* Smoll */
+  @media(min-width:768px){
+    .container{
+        width: 720px;
+    }
+}   
+    /* Medium */
+@media(min-width:992px){
+    .container{
+        width: 943px;
+    }
+} 
+    /* Large */
+@media(min-width:1200px){
+    .container{
+        width: 1150px;
+    }
+}      
+/* .species .container span:first-child{
+    position: absolute;
+    color: red;
+    left: 42%;
+    top: -40px;
+} 
+.species .images{
+    position: relative;
+    left: 55px; 
+}
+.species .images img{
+    width: 280px;
+    height: 195px;
+} 
+.species .data img{
+    margin-left: 20px;
+}
+.species .data img{
+    width: 30px; 
+    position: absolute; 
+    top: 100px; 
+    left: 270px;
+}  
+.species .right img{
+    width: 30px; 
+    position: absolute; 
+    top: 100px; 
+    left: -43px;
+} 
+.species  .info .data {  
+    width: 270px; 
+    height: 190px;   
+    text-align: center;   
+    position: relative; 
+    margin-left: -45px;
+}        
+.species  .info .right{
+    margin-left: 0;
+}
+.species .info .data:hover{
+    background-image: url(../image/curl-y-2.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+} 
+.species .info h3{
+    font-size: 16px;
+    text-align: center;
+    margin: 5px 0; 
+    text-transform: uppercase; 
+    padding-top: 50px;
+} 
+.species .info p{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 17px;
+    margin: 0 0 3px;
+    padding: 0 12px;
+    font-family: cursive;
+}   
+.species .info span{
+    display: inline-grid; 
+} 
+.species .info span button{
+    background-color: #72bbcd;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 17px;
+    padding: 8px 19px;
+    width: 166px;
+    margin-top: 5px;
+    border: none; 
+    border-radius: 5px;
+} 
+.species  .info span button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer; 
+    font-size: 15px; 
+}  
+@media(max-width:1025px){
+    .species .container img{
+        visibility: hidden;
+    }
+}@media(max-width:1200px){
+    .species .info-pizza img:last-child{
+        visibility: hidden;
+    }
+} 
+.species .container .but-end{
+    background-color: #72bbcd;
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+    padding: 6px 20px;
+    border: none;
+    position: absolute;
+    left: 42%;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+
+}  */
+/* .extras .container .info {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-template-rows: auto auto; 
+    gap: 20px 20px;
+} 
+.extras .container .info div img{
+    max-width: 100%;
+    max-height: 100%;
+} */
+.extras .container .info div{
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    background-position: center center;
+    margin-bottom: 15px; 
+} 
+.extras .container .info .a1{
+    height: 400px; 
+    width :462px;
+    background-image: url(../image/temp-1.jpg);
+}
+.extras .container .info .a2{
+    height: 240px; 
+    width : 462px;
+    background-image: url(../image/temp-3.jpg);
+}
+.extras .container .info .a3{
+    height: 200px; 
+    width :462px;
+    background-image: url(../image/partner.jpg);
+}
+.extras .container .info .a4{
+    height: 440px; 
+    width :300px;
+    background-image: url(../image/temp-4.jpg);
+}
+.extras .container .info .a5{
+    height: 212px; 
+    width:149px;
+    background-image: url(../image/temp-5.jpg);
+}
+.extras .container .info .a6{
+    height: 212px; 
+    width:149px;
+    background-image: url(../image/temp-6.jpg);
+}
