@@ -3,7 +3,7 @@ body {
     overflow: hidden;
 }   
 li,a:hover{
-cursor: pointer;
+cursor: pointer; 
 }
 :root {
     --maincolor : #FB414E;
@@ -352,12 +352,19 @@ text-align: center;
 }   
 @media(max-width:767px){
     .beau{
-        background-position: -600px center;
+        background-position: -600px center;  
     }
 } 
 @media(max-width:576px){
     .beau{
-        background-position: -800px center;
+        background-position: -800px center;  
+        padding: 118px 00px;
+    } 
+    .submit {
+        padding: 182px 00px !important; ;
+    } 
+    footer {
+        padding: 64px 00px !important;; 
     }
 }
 .beau .info-top p {
