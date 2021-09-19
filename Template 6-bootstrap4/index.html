@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kallyas</title> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!--  Main Template CSS File  -->
+    <link rel="stylesheet" href="css/main.css"> 
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css"> 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700;900&display=swap" rel="stylesheet">   
+    <!-- Wow Animation -->
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+
+<body> 
+    <!-- Start NavBar -->
+<div class="All">
+        <div class="over-lay"></div>
+<nav class="navbar navbar-expand-lg navbar-light "> 
+        <div class="container">
+            <a class="navbar-brand text-left" href="#">
+                Kallyas<span class="fo-color">.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Main" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="Main">
+            <ul class="navbar-nav ml-auto  "> 
+                <li class="nav-item active ">
+                    <a class="nav-link" href="#home">Home </a><span class="sr-only">(current)</span> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <!-- End NavBar -->
+    <!-- Start Header -->
+<header id="home">
+        <div class="container"> 
+            <div class="text-center d-md-block d-flex flex-column"> 
+                <h1>Helping Business And Companies <br>
+                    Innovate Transform And Lead</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>
+                    labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra <br>
+                    maecenas accumsan lacus vel facilisis. </p>
+            
+            
+                    <button class="btn bg-color d-block d-md-inline wow rotateInDownLeft " data-wow-deration="10s" data-wow-offset="100" >Start Now</button>
+                    <button class="btn d-block d-md-inline wow rotateInDownRight" data-wow-deration="10s" data-wow-offset="100">Our Services</button>
+                
+            </div>
+        </div>
+</header>
+</div>
+    <!-- End Header -->
+    <!-- Start Featuers -->
+<div class="feat" id="Features">
+        <div class="container">
+            
+            <div class="card-deck">
+                <div class="row d-flex justify-content-center">
+                     <script>
+                        let CardCount=3;
+                        let CardImage = ["content.png","graphic-design.png","analysis.png"];
+                        let CardP=["Content Concept & Strategy.","Design & Concepts","SEO & Marketing Solutions"]
+                        let CardSpan =[
+                            "Aenean pharetra magna ac placerat magna vestibulum lectus mauris ultrices eros. Eget aliquet nibh dignissim odio velit mauris.",
+                            "In egestas erat imperdiet sed euismod. A diam maecenas sed enim ut sem. Faucibus in ornare quam viverra.",
+                            "In egestas erat imperdiet sed euismod. A diam maecenas sed enim ut sem. Faucibus in ornare quam viverra."
+                        ]  
+                        let CardAnmi=["rotateInDownLeft","fadeInDownBig","rotateInDownRight"]
+                        for(let i = 0 ; i<CardCount; i++){
+                            document.write(`  
+                            <div class=" col-12 col-md-6 col-lg-4  text-center text-lg-left ">
+                                <div class="card t-color wow ${CardAnmi[i]}" data-wow-deration="10s" data-wow-offset="300">
+                                    <div class="card-body">
+                                        <div class="row imag-logo  ">
+                                            <img src="img/${CardImage[i]}"  alt="">
+                                        </div>
+                                        <h5 class="card-title">${CardP[i]}</h5> 
+                                        <hr>
+                                        <p class="card-text"><small class="text-muted">${CardSpan[i]}</small></p>
+                                    </div>
+                                </div>
+                            </div>`
+                            )}
+                    </script> 
+                </div>
+            </div> 
+            
+        </div>
+</div>
+    <!-- End Featuers -->
+    <!-- Start Services -->
+<div class="services" id="services">
+        <div class="container">
+            <div class="info-top text-center">
+                <h5 class="font-weight-bold">Servicer</h5>
+                <h2 class="h1 font-weight-bold">Best services for <span class="fo-color"> Visual Perfection</span></h2>
+                <p>Cras sed felis eget velit aliquet sagittis id consectetur. Lectus sit amet est <br> placerat in egestas erat imperdiet sed. Amet nisl purus in mollis nunc sed id semper risus.</p>
+            </div> 
+            <!-- Start Info bottom --> 
+            <div class="info-bott">
+                <div class="card-deck ">
+                    <div class="row d-flex justify-content-center">
+                       
+                        <script>
+                            let SerLogo = ["settings.png","idea.png","graphic-design .png","laptop.png","file.png","user.png"];
+                            let SerHeader=["Strategy","Marketing","Technology","Ecommerce","Branding","SEO Identity"] 
+                            let SerP=[
+                            "Ullamcorper dignissim cras tincidunt vet lobortis feugiat vivamus. Sed euismod nisi porta lorem mollis turpis dui amet.",
+                            "Duis at consectetur lorem donec massa sapien faucibus et. Et malesuada fames ac turpis egestas maecenas pharetra.",
+                            "Viverra nibh cras pulvinar mattis nunc sed blandit libero. Lorem ipsum dolor sit amet consectetur adipiscing.", 
+                            "Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Aliquam ut porttitor a sollicitudin.",
+                            "Orci a scelerisque purus semper eget. Ac ut consequat semper viverra nam libero justo   lectus arcu bibendum at laoreet sit.",
+                            "Etiam sit amet nisl purus in mollis nunc. Orci a scelerisque purus semper. Eget dolor  diam quam nulla morbi non arcu."
+                            ] 
+                            let CardAnm=["fadeInLeftBig","fadeInDownBig","fadeInRightBig","fadeInLeftBig","fadeInDownBig","fadeInRightBig"]
+                            for(let i=0; i<SerLogo.length; i++){
+                                document.write(` 
+                                <div class=" text-center col-lg-4 col-md-6  col-12">
+                                    <div class="card wow ${CardAnm[i]}" data-wow-deration="5s" data-wow-offset="300">
+                                        <div class="card-body">
+                                            <div class="row imag-logo justify-content-center">
+                                                <img src="img/${SerLogo[i]}"  alt="">
+                                            </div>
+                                            <h3 class="card-title font-weight-bold">${SerHeader[i]}</h3> 
+                                            
+                                            <p class="card-text"><small class="text-muted">${SerP[i]}</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                `);
+                            }
+                        </script> 
+                        
+                    </div >
+                </div>
+            </div>
+        </div>
+</div>
+    <!-- End Services --> 
+    <!-- Start Start Now -->
+<div class="start-now t-color" id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-12  info-left f-fff text-sm-left text-xl-left text-md-center">
+                    <h2 class="font-weight-bold">Detailed business plans & the
+                        most effective results</h2> 
+                    <p>Pellentesque habitant morbi tristique senectus et netus et. Accumsan lacus vel facilisis volutpat est velit egestas. Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. At varius vel pharetra vel turpis nunc eget.</p> 
+                    <button class="btn f-fff">Start Now</button>
+                </div>
+                <div class="col-xl-6 col-md-12 info-right text-center"> 
+                    <img src="img/Rectangle 2.png" alt="" class=" wow flip" data-wow-deration="5s" data-wow-offset="400">
+                    <img src="img/Rectangle.png" alt="" >                 
+                </div>
+            </div>
+        </div>
+</div>
+    <!-- Start End Now --> 
+    <!-- Start Provide -->
+<div class="provide">
+        <div class="container">
+            <div class="row">
+                <div class="col info-left text-left order-last order-lg-First"> 
+                    
+                    <div class="row"> 
+                        <script>
+                            let CardHeader =["01. Elegant / unique design",
+                            "02. True responsiveness",
+                            "03. Different layout type",
+                            "04. Make it simple"] 
+                            let Cardp=["Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Aliquam ut porttitor a sollicitudin.",
+                            " At risus viverra adipiscing at in tellus. Nec tincidunt praesent semper feugiat nibh. Nunc scelerisque viverra.",
+                            "Sed arcu non odio euismod lacinia at quis risus. Turpis in eu mi bibendum neque egestas congue quisque.",
+                            "Imperdiet proin fermentum leo vel orci. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices."] 
+
+                            for(let i=0; i<CardHeader.length; i++){
+                                document.write(` 
+                                <div class=" text-center col-12 col-md-6 text-md-left">
+                                    <div class="body wow bounceIn" data-wow-deration="5s" data-wow-offset="400">                                        
+                                            <h5 class="font-weight-bold">${CardHeader[i]}</h5> 
+                                            <p class="p-color">${Cardp[i]}</p>
+                                    </div>
+                                </div> 
+                                `)
+                            }
+                        </script>
+
+
+                        
+                    </div>
+                </div>
+            
+                <div class="col-12 info-right order-first order-lg-last col-lg-6 text-center text-lg-left "> 
+                    <h2 class="h1 font-weight-bold">We provide high quality and cost effective services.</h2>
+                    <p class="p-color">Massa ultricies mi quis hendrerit dolor magna eget est lorem. Amet risus nullam eget felis eget. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque.</p>
+                    <p class="p-color">ringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Urna nunc id cursus metus aliquam eleifend. Imperdiet proin fermentum leo vel orci.</p>
+                </div>
+            </div>
+        </div>
+</div>
+    <!-- End Provide --> 
+    <!-- Start Futured -->
+<div class="futured d-none d-sm-block" style="overflow: hidden;">
+        <div class="container">
+            <div class="info-header  ">
+                    <ul class=" list-unstyled row ">  
+                        <li class=" active col-md " data-class="all">
+                            <a class="p-color" >ALL </a>
+                        </li>
+                        <li class="col-md" data-class=".web">
+                            <a class="p-color" >Web</a>
+                        </li>
+                        <li class="col-md" data-class=".adv">
+                            <a class="p-color" >ADVERTISING</a>
+                        </li> 
+                        <li class="col-md" data-class=".bra">
+                            <a class="p-color" >BRANDING</a>
+                        </li>
+                        <li class="col-md" data-class=".desi">
+                            <a class="p-color" >DESIGN</a>
+                        </li>
+                        <li class="col-md" data-class=".photo">
+                            <a class="p-color" >PHOTOGRAPHY</a>
+                        </li>
+                    </ul> 
+            </div>
+        </div>
+        <div class="row info-image justify-content-center">  
+            <script> 
+                let image =[
+                    "Rectangle 1.png","Rectangle2.png","Rectangle 3.png","Rectangle 4.png",
+                    "Rectangle 5.png","Rectangle 6.png","Rectangle 7.png","Rectangle 8.png"]  
+                let ImageClass = ["all","web","adv","web","bra","photo","adv","desi","photo"]
+
+                    for(let i=0; i<image.length; i++){
+                        document.write(`  
+                        <div class="col-6 col-md-3">
+                            <img src="img/${image[i]}" class="${ImageClass[i]}" alt=""> 
+                        </div>
+                        `)
+                    }
+            </script>
+        </div>
+</div>
+    <!-- End Futured -->
+    <!-- Start Project -->
+<div class="project t-color" id="work">
+    <div class="container">
+        <div class="row">  
+            <div class="col-12 col-lg-6 info-left order-last order-lg-first"> 
+                <div class="row">
+                    <script>
+                        let ImageProject=["logo-clint.png","Logo-Transparent.png","4.png","V&IPS.png"] 
+                        for(let i=0; i<ImageProject.length; i++){
+                            document.write(`  
+                            <div class="col-12 col-sm-6 text-center image">
+                            <img src="img/${ImageProject[i]}" alt="" class=""">
+                            </div>
+                            `)
+                        }
+                    </script>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 text-center  info-right f-fff text-lg-right order-first order-lg-last">
+                <h2 class="h1 font-weight-bold">Clients with projects proudly
+                    crafted by our agency.</h2>
+                <p class="">Aenean sed adipiscing diam donec. Est placerat in egestas erat. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Lacus luctus accumsan tortor posuere.</p> 
+            </div> 
+        </div> 
+
+    </div>
+</div>
+    <!-- End Project -->
+    <!-- Start Beautifully --> 
+<div class="beau"> 
+    <div class="container">  
+        <div class="row">
+            <div class="col-12 col-md-9 col-lg-6">
+                <div class="info-top info-left text-center text-lg-left"> 
+                    <h2 class="h1 font-weight-bold"> 
+                        Beautifully handcrafted designs for your website
+                    </h2> 
+                    <p class="p-color">
+                        Enim ut tellus elementum sagittis vitae et leo duis. Feugiat sed lectus vestibulum mattis ullamcorper. Aenean et tortor at risus viverra adipiscing at. Neque aliquam vestibulum morbi blandit cursus risus at.
+                    </p>
+                </div> 
+                <div class="info-bott">
+                    <div class="row">
+                        <div class="col-12 col-sm-6  text-center text-lg-left">
+                            <div class="body">                                    
+                                <img src="img/server.png"  alt="">     
+                                <h5>Secured Database</h5> 
+                                <p class="p-color">Ullamcorper dignissim cras tincidunt vet lobortis feugiat vivamus. Sed euismod nisi porta lorem mollis turpis.</p>
+                            </div>
+                        </div>  
+                        <div class="col-12 col-sm-6 text-center text-lg-left">
+                            <div class="body">                        
+                                <img src="img/graphic-design2.png"  alt="">                 
+                                <h5>Modern Framework</h5> 
+                                <p class="p-color">Pharetra massa massa ultricies mi quis hendrerit. Interdum consectetur libero nisl tincidunt eget. nullamnon.consectetur purus.</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-6 info-image"> 
+                
+                    <img src="img/accounting.png" alt="">
+                
+               
+            </div> -->
+        </div>
+    </div> 
+</div>
+    <!-- End Beautifully --> 
+    <!-- Start Submit -->
+<div class="submit" id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 info-left text-lg-right text-center wow fadeInLeftBig" data-wow-deration="5s" data-wow-offset="400">
+                <h2 class="h1 font-weight-bold">
+                    Want to have a
+                    proffesional project?
+                    Let’s talk about it.
+                </h2>
+                <p class="p-color">
+                    Est ultricies integer quis auctor elit sed vulputate mi. Lectus nulla at volutpat diam ut. Justo donec enim diam vulputate ut pharetra sit amet aliquam. Parturient montes nascetur ridiculus mus mauris vitae.
+                    <br>  <br>
+                    Vel fringilla est ullamcorper eget nulla. Urna duis convallis convallis tellus id interdum velit laoreet id. Donec adipiscing tristique risus nec feugiat. Egestas dui id ornare arcu odio ut sem nulla.   
+                </p>
+            </div>
+            <div class=" col-12 col-lg-6 info-right wow fadeInRightBig" data-wow-deration="5s" data-wow-offset="400"> 
+                <form> 
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputName" placeholder="Your Name*" style="width: 102.3%; margin-left: -5px;">
+                    </div>
+                    <div class="form-row" style=" margin-left: -10px; margin-right: -10px;">
+                      <div class="form-group col-md-6">
+                          <input type="text" class="form-control" id="inputComanyName" placeholder="Company Name*">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Eamil Address*">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                        <select id="inputState" class="form-control" style="margin-bottom: 20px;"placeholder="Select Services...">
+                            <option  >Select Services...</option> 
+                            <option>Strategy</option>
+                            <option>Marketing</option> 
+                            <option>Technology</option>
+                            <option>Ecommerce</option>
+                            <option>Branding</option>
+                            <option>SEO Identity</option>
+                        </select> 
+                    </div>
+                    <div class="form-row">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Describe your project*"></textarea>
+                    </div>
+                </form>
+            </div>   
+        </div>
+        <div class="row wow fadeInUpBig" data-wow-deration="5s" data-wow-offset="200"> 
+            <form action="" class="sub col-12"> 
+                <button type="submit" class="btn bg-color f-fff">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+    <!-- End Submit -->
+<footer class="t-color"> 
+    <div class="container text-center text-md-left"> 
+        <div class="row" >
+            <div class="col-12 col-md-6">
+                <a class="text-left info-top-left" href="#">
+                    Kallyas<span class="fo-color">.</span>
+                </a>
+            </div>
+            <div class="col d-none d-lg-block"> 
+                <ul class="row "> 
+                    <li class="foot-item active ">
+                        <a class="foot-link" href="#home">Home </a><span class="sr-only">(current)</span> 
+                    </li>
+                    <li class="foot-item">
+                        <a class="foot-link" href="#services">Services</a>
+                    </li>
+                    <li class="foot-item">
+                        <a class="foot-link" href="#work">Works</a>
+                    </li>
+                    <li class="foot-item">
+                        <a class="foot-link" href="#About">About us</a>
+                    </li>
+                    <li class="foot-item">
+                        <a class="foot-link" href="#Features">Features</a>
+                    </li>
+                    <li class="foot-item">
+                        <a class="foot-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+        <div class="row info-center f-fff">
+            <div class="col-12 col-lg-6 info-center-left">
+                <h5 class="font-weight-bold">Contact</h5>
+                <p>758 E. Beechwood Lane Bay Shore, NY 11706 <br>
+                    youremail@address.com, +1-202-555-0158</p>
+            </div>
+            <div class="col-12 col-lg-6 info-center-right  ">
+                <form class="d-fledx text-right"> 
+                    <label for="exampleInputEmail1 align-center">Subscribe to newsletter</label>
+                    <div class="form-group d-flex justify-content-end flex-nowrap">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email Address" > 
+                        <button type="submit" class="btn bg-color f-fff">Submit </button> 
+                    </div>
+                </form>
+            </div>
+        </div> 
+        <div class="row info-bott">
+            <div class="col-12 col-md-6">
+                <ul class="row list-unstyled justify-content-center justify-content-md-start">
+                    <li>
+                        <img src="img/instagram.png" alt="">
+                    </li> 
+                    <li>
+                        <img src="img/facebook.png" alt="">
+                    </li>
+                    <li>
+                        <img src="img/twitter.png" alt="">
+                    </li>
+                    <li>
+                        <img src="img/linkedin.png" alt="">
+                    </li>
+                </ul>
+            </div> 
+            <div class="col-12 col-md-6">
+                <p class="p-color text-center text-md-right">
+                    © 2019. All rights reserved. Buy Kallyas Wordpress Theme.
+                </p>
+            </div> 
+        </div>
+    </div>
+</footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/wow.min.js"></script> 
+        <script>
+            new WOW().init();
+        </script> 
+        <script src="js/jquery.nicescroll.js"></script>
+</body>
+</html>
